@@ -74,8 +74,8 @@ module.exports = class SpritesmithPlugin {
                     this.compile(() => {});
                 });
             });
-
-            return this.compile(watchRunCallback);
+            return watchRunCallback()
+            // return this.compile(watchRunCallback);
         });
 
         this._hook(compiler, 'emit', 'emit', (compilation, cb) => {

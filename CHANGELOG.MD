@@ -1,3 +1,5 @@
+### 1.1.1
+- 取消初始化时的编译动作
 ### 1.1.0
 - update dependencies (fixes some github security warnings)
 - add support for `spritesheet_info`, `retina_spritesheet_info` [#91](https://github.com/mixtur/webpack-spritesmith/pull/91)

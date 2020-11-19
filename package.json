@@ -1,6 +1,6 @@
 {
-  "name": "webpack-spritesmith",
-  "version": "1.1.0",
+  "name": "@birdman_jp/webpack-spritesmith",
+  "version": "1.1.1",
   "description": "Webpack plugin that converts set of images into a spritesheet and SASS/LESS/Stylus mixins",
   "main": "lib/Plugin.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mixtur/webpack-spritesmith.git"
+    "url": "git+https://github.com/onlinbirdman/webpack-spritesmith"
   },
   "keywords": [
     "icons",
